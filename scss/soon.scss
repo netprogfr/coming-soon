@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+@import '_variables.scss';
+
+@import 'mixins/_backgrounds.scss';
+@import 'mixins/_colors.scss';
+
+@import '_layout.scss';
+
+@import 'components/_carousel.scss';
+@import 'components/_content.scss';
+@import 'components/_countdown.scss';

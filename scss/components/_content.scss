@@ -1,0 +1,79 @@
+.block-content {
+  padding: 1em
+}
+
+#block-left {
+
+  text-shadow: 2px 2px $gray-700;
+
+  #block-left-content {
+
+    z-index: 100;
+    color: $white;
+    font-weight: bold;
+
+    .logo {
+
+      margin: 0 0 1.5em 0;
+      padding: 0;
+      text-align:center;
+      
+      h1 {
+        margin:0 0 -.3em 0;
+        padding: 0;
+        font-size: 5em;
+        letter-spacing: .1em;
+      }
+      .slogan {
+        display: inline-block;
+        letter-spacing: .42em;
+
+        &.slogan-fr {
+          letter-spacing: .37em;
+        }
+      }
+    }
+  }
+}
+#block-right {
+
+  background: $white;
+
+  h2 {
+    color: $primary;
+    font-size: 2em;
+  }
+
+  div {
+    padding-bottom: 1em;
+
+    .flag-icon {
+      padding-right: .5em;
+
+      img {
+        width: 2em;
+        vertical-align: middle;
+      }
+    }
+
+    #social-menu {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      width: 100%;    
+      padding: 0;
+      margin: 0;
+      font-size: 2em;
+
+      a {
+        text-decoration: none;
+        color: $secondary;
+      }
+
+      li {
+        padding:0;
+        margin:0;
+      }
+    } 
+  }
+}

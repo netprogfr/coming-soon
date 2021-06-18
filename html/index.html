@@ -4,11 +4,83 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coming Soon</title>
+
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- custom inkubox theme -->
+  <link rel="stylesheet" href="./dist/css/soon.min.css">
+
 </head>
 <body>
 
-  Coming soon...
-  
+  <div id="app">
+
+    <div class="half" id="block-left">
+
+      <div id="carousel">
+        <div class="slide" id="slide-1">
+          <div id="bg-1"></div>
+        </div>
+        <div class="slide" id="slide-2">
+          <div id="bg-2"></div>
+        </div>
+        <div class="slide" id="slide-3">
+          <div id="bg-3"></div>
+        </div>
+        <div class="slide" id="slide-4">
+          <div id="bg-4"></div>
+        </div>
+      </div>
+
+      <div class="block-content" id="block-left-content">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+          <h1>My project</h1>          
+        </div>
+        <div id="countdown-wrapper" data-aos="fade-up" data-aos-delay="1000">
+          [<span>Ready in</span> <div id="countdown"></div>]
+        </div>
+      </div>
+
+    </div>
+
+    <div class="half" id="block-right">
+
+      <div class="block-content" id="block-right-content">
+    
+        <h2>Coming Soon...</h2>
+
+        <div>
+          <span class="flag-icon" id="en">
+            <img src="./dist/img/flags/uk.svg" alt="icon flag en" />
+          </span>
+          This application will be available soon! Thank you for your patience...</span>
+        </div>
+        <div>
+          <span class="flag-icon" id="fr">
+            <img src="./dist/img/flags/france.svg" alt="icon flag fr" />
+          </span>
+          Cette application sera disponible prochainement ! Merci de votre patience...</span>
+        </div> 
+
+        <p>Photo credit: <a href="https://unsplash.com/" target="_blank">https://unsplash.com/</a></p>
+      
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Countdown configuration
+    var current_date = new Date();
+    var year=current_date.getFullYear();
+    var year=year+1;
+    var when="Jan 1, "+ year +" 00:00:00";
+    var isDayFrench = false;
+  </script>
+  <script src="./dist/js/countdown.js"></script>
+  <script src="./dist/js/carousel.js"></script>
+
 </body>
 </html>

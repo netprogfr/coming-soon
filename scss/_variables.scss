@@ -1,0 +1,57 @@
+$breakpoint-mobile: 768px;
+$breakpoint-medium: 900px;
+
+//
+// Color
+// 
+
+$white:    #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #5c6873 !default;
+$gray-800: #373a3c !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$white-ter: #f8f5f0;
+
+$green: #93c54b;
+$blue: #29abe0;
+$red: #d9534f;
+$yellow:  #FF8800 !default;
+
+$primary: #f26d53 !default;
+$secondary: #068282 !default;
+
+$success:       $green !default;
+$info:          $blue !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$dark:          $gray-800 !default;
+
+:root {
+  --main-color: $primary;
+  --secondary-color: $secondary;
+  --success: $green;
+  --info: $blue;
+  --warning: $yellow;
+  --danger: $red;
+  --light: $gray-100;
+  --dark: $gray-800;  
+}
+
+//
+// Fonts
+//
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Saira:900&display=swap');
+
+$family-primary: 'Lato';
+$family-secondary: 'Saira';
+
+$family-sans-serif: $family-primary, 'Helvetica Neue', Helvetica, Arial, sans-serif;
